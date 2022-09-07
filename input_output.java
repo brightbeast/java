@@ -83,6 +83,18 @@ public class input_output {
         printJava();
 
         printname("Prajwal");
+
+
+        //example of try and catch
+        int[] brr={23,43,23,89};
+        try{
+
+            System.out.println(brr[7]);
+        }
+        catch(Exception exception){
+            System.out.println("Hello");
+        }
+        System.out.print("yes right");
     }
     
 }
